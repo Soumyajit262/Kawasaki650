@@ -8,5 +8,11 @@ public class CreateCampaign {
 	{
 		System.out.println("Campaign created successfully");
 	}
-
+	
+	@Test
+	public void createQuotation()
+	{
+		System.out.println("Quotation created by 2nd user");
+	}
+	
 }
