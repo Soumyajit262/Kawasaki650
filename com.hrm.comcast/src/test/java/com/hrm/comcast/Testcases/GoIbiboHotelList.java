@@ -69,11 +69,15 @@ public class GoIbiboHotelList {
 		
 		/*Printing the list of hotels*/
 		List<WebElement> hotelNames = driver.findElements(By.xpath("//h4[@class='dwebCommonstyles__SmallSectionHeader-sc-112ty3f-9 bjZxoj']"));
-		
+		int count = 0;
 		for(WebElement wb : hotelNames)
 		{
 			System.out.println("Hotel Name is: " + wb.getText());
+			count++;
 		}
+		
+		System.out.println("Total number of hotels are: " + count);
+		
 	    
 	}
 
