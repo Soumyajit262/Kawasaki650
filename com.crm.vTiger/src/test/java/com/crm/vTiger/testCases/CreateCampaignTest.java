@@ -2,7 +2,7 @@ package com.crm.vTiger.testCases;
 
 import org.testng.annotations.Test;
 
-public class CreateCampaign {
+public class CreateCampaignTest {
 	@Test
 	public void createCampaign()
 	{
