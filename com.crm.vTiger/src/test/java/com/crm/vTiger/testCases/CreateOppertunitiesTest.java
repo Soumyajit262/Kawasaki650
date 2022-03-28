@@ -7,6 +7,7 @@ public class CreateOppertunitiesTest {
 	public void createOppertunities()
 	{
 		System.out.println("oppertunities created successfully");
+		System.out.println("oppertunities deleted successfully");
 	}
 
 }
