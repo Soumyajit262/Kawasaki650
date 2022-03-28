@@ -4,8 +4,10 @@
   <test thread-count="5" name="Test">
     <classes>
       <class name="com.crm.vTiger.testCases.CreateProductTest"/>
-      <class name="com.crm.vTiger.testCases.createLeadTest"/>
-      <class name="com.crm.vTiger.testCases.CreateOppertunities"/>
+      <class name="com.crm.vTiger.testCases.RunTimeParameterTest"/>
+      <class name="com.crm.vTiger.testCases.CreateCampaignTest"/>
+      <class name="com.crm.vTiger.testCases.CreateLeadTest"/>
+      <class name="com.crm.vTiger.testCases.CreateOppertunitiesTest"/>
       <class name="com.crm.vTiger.testCases.CreateOrganizationTest"/>
     </classes>
   </test> <!-- Test -->
